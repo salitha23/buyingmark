@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\PUBUDU\\Desktop\\FlyWeb_Flutter\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\xml\\provider_paths.xml",
+        "source": "C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_inappwebview-4.0.0+4\\android\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\PUBUDU\\Desktop\\FlyWeb_Flutter\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\xml\\image_share_filepaths.xml",
+        "source": "C:\\Users\\PUBUDU\\.gradle\\caches\\transforms-2\\files-2.1\\8b82793e435830a090b512b640083076\\browser-1.2.0\\res\\xml\\image_share_filepaths.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">824322357385-jk348441t0kbe1v8gt6gfhoir1k05c9a.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">824322357385</string>
+    <string name="google_api_key" translatable="false">AIzaSyBaG6D6bfCWiZm111FnJJihLIjaRgvyvXE</string>
+    <string name="google_app_id" translatable="false">1:824322357385:android:4be3723360a721eceaee58</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBaG6D6bfCWiZm111FnJJihLIjaRgvyvXE</string>
+    <string name="google_storage_bucket" translatable="false">buyingmark-2bdd7.appspot.com</string>
+    <string name="project_id" translatable="false">buyingmark-2bdd7</string>
+</resources>

@@ -1,0 +1,8 @@
+{
+  "base_url": "https://buyingmark.com",
+  "api_base_url": "http://app.buyingmark.com/api",
+  "firstColor": "#e8d634",
+  "secondColor": "#eab413",
+  "appIdOneSignal": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "defaultLanguage": "en"
+}

@@ -1,0 +1,544 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.buyingmark"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:9:5-67
+18-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:9:22-64
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:10:5-76
+19-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:10:22-73
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:11:5-79
+20-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:12:5-80
+21-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:12:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:13:5-80
+22-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:13:22-77
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:14:5-79
+23-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:14:22-76
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:15:5-81
+24-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:15:22-78
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:17:5-65
+25-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:17:22-62
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:18:5-71
+26-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:18:22-68
+27    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+27-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:19:5-80
+27-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:19:22-77
+28    <uses-permission android:name="android.permission.VIDEO_CAPTURE" />
+28-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:20:5-72
+28-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:20:22-69
+29    <uses-permission android:name="android.permission.AUDIO_CAPTURE" />
+29-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:21:5-72
+29-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:21:22-69
+30    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+31    <permission
+31-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:7:5-9:47
+32        android:name="com.buyingmark.permission.C2D_MESSAGE"
+32-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:8:9-63
+33        android:protectionLevel="signature" />
+33-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:9:9-44
+34
+35    <uses-permission android:name="com.buyingmark.permission.C2D_MESSAGE" />
+35-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:11:5-79
+35-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:11:22-76
+36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+36-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:17:5-82
+36-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:17:22-79
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:18:5-68
+37-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:18:22-65
+38    <!--
+39 Required so the device vibrates on receiving a push notification.
+40         Vibration settings of the device still apply.
+41    -->
+42    <uses-permission android:name="android.permission.VIBRATE" />
+42-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:23:5-66
+42-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:23:22-63
+43    <!--
+44 Use to restore notifications the user hasn't interacted with.
+45         They could be missed notifications if the user reboots their device if this isn't in place.
+46    -->
+47    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+47-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:29:5-81
+47-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:29:22-78
+48    <!-- Samsung -->
+49    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+49-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:31:5-86
+49-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:31:22-83
+50    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+50-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:32:5-87
+50-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:32:22-84
+51    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+51-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:33:5-81
+51-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:33:22-78
+52    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+52-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:34:5-83
+52-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:34:22-80
+53    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+53-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:35:5-88
+53-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:35:22-85
+54    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+54-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:36:5-92
+54-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:36:22-89
+55    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+55-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:37:5-84
+55-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:37:22-81
+56    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+56-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:38:5-83
+56-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:38:22-80
+57    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+57-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:39:5-91
+57-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:39:22-88
+58    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+58-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:40:5-92
+58-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:40:22-89
+59    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+59-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:41:5-93
+59-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:41:22-90
+60    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+60-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:42:5-73
+60-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:42:22-70
+61    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+61-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:43:5-82
+61-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:43:22-79
+62    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+62-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:44:5-83
+62-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:44:22-80
+63    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+63-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:45:5-88
+63-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:45:22-85
+64    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+64-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:46:5-89
+64-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:46:22-86
+65    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+65-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+65-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+66
+67    <application
+67-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:23:5-49:19
+68        android:name="io.flutter.app.FlutterApplication"
+68-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:24:9-57
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.3.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\627f48d691148e0fdc5c1de914d338ac\core-1.3.2\AndroidManifest.xml:24:18-86
+70        android:icon="@mipmap/ic_launcher"
+70-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:26:9-43
+71        android:label="@string/app_name"
+71-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:25:9-41
+72        android:usesCleartextTraffic="true" >
+72-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:27:9-44
+73        <activity
+73-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:29:9-40:20
+74            android:name="com.buyingmark.MainActivity"
+74-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:30:13-41
+75            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+75-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:33:13-163
+76            android:hardwareAccelerated="true"
+76-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:34:13-47
+77            android:launchMode="singleTop"
+77-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:31:13-43
+78            android:theme="@style/LaunchTheme"
+78-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:32:13-47
+79            android:windowSoftInputMode="adjustResize" >
+79-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:35:13-55
+80            <intent-filter>
+80-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:36:13-39:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:37:17-68
+81-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:37:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:38:17-76
+83-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:38:27-74
+84            </intent-filter>
+85        </activity>
+86        <!--
+87             Don't delete the meta-data below.
+88             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+89        -->
+90        <meta-data
+90-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:43:9-45:33
+91            android:name="flutterEmbedding"
+91-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:44:13-44
+92            android:value="2" />
+92-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:45:13-30
+93        <meta-data
+93-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:46:9-48:69
+94            android:name="com.google.android.gms.ads.APPLICATION_ID"
+94-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:47:13-69
+95            android:value="ca-app-pub-4730729327706435~5907314797" />
+95-->C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\android\app\src\main\AndroidManifest.xml:48:13-67
+96
+97        <service
+97-->[:location] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\location\intermediates\library_manifest\release\AndroidManifest.xml:11:9-15:56
+98            android:name="com.lyokone.location.FlutterLocationService"
+98-->[:location] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\location\intermediates\library_manifest\release\AndroidManifest.xml:12:13-71
+99            android:enabled="true"
+99-->[:location] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\location\intermediates\library_manifest\release\AndroidManifest.xml:13:13-35
+100            android:exported="false"
+100-->[:location] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\location\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+101            android:foregroundServiceType="location" />
+101-->[:location] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\location\intermediates\library_manifest\release\AndroidManifest.xml:15:13-53
+102
+103        <activity
+103-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:47
+104            android:name="com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity"
+104-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:13-102
+105            android:configChanges="orientation|screenSize"
+105-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:10:13-59
+106            android:theme="@style/AppTheme" />
+106-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:11:13-44
+107        <activity
+107-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:12:9-15:55
+108            android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity"
+108-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:13:13-110
+109            android:configChanges="orientation|screenSize"
+109-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:14:13-59
+110            android:theme="@style/ThemeTransparent" />
+110-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:15:13-52
+111
+112        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver" />
+112-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:17:9-118
+112-->[:flutter_inappwebview] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:17:19-115
+113
+114        <service
+114-->[:firebase_core] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[:firebase_core] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\3f027a1b4fa4374cfaf204b3ae77302d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+117            android:exported="false" >
+117-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+118            <meta-data
+118-->[:firebase_core] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+119-->[:firebase_core] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:firebase_core] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+122                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+122-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+125                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+127        </service>
+128
+129        <provider
+129-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+130            android:name="io.flutter.plugins.share.ShareFileProvider"
+130-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:9:13-70
+131            android:authorities="com.buyingmark.flutter.share_provider"
+131-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+132            android:exported="false"
+132-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+133            android:grantUriPermissions="true" >
+133-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+134            <meta-data
+134-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:68
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+136                android:resource="@xml/flutter_share_file_paths" />
+136-->[:share] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\share\intermediates\library_manifest\release\AndroidManifest.xml:15:17-65
+137        </provider>
+138
+139        <activity
+139-->[:url_launcher] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+140            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+140-->[:url_launcher] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+141            android:exported="false"
+141-->[:url_launcher] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+142            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+142-->[:url_launcher] C:\Users\PUBUDU\Desktop\FlyWeb_Flutter\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+143
+144        <meta-data
+144-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:49:9-51:51
+145            android:name="onesignal_app_id"
+145-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:50:13-44
+146            android:value="xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+146-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:51:13-48
+147        <meta-data
+147-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:53:9-55:70
+148            android:name="onesignal_google_project_number"
+148-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:54:13-59
+149            android:value="str:xxxxxxxxxxxxx" />
+149-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:55:13-67
+150
+151        <receiver
+151-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:57:9-67:20
+152            android:name="com.onesignal.GcmBroadcastReceiver"
+152-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:58:13-62
+153            android:permission="com.google.android.c2dm.permission.SEND" >
+153-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:59:13-73
+154
+155            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+156            <intent-filter android:priority="999" >
+156-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:62:13-66:29
+156-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:62:28-50
+157                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+157-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:63:17-81
+157-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:63:25-78
+158
+159                <category android:name="com.buyingmark" />
+159-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:65:17-61
+159-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:65:27-58
+160            </intent-filter>
+161        </receiver>
+162        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+162-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:68:9-77
+162-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:68:19-74
+163
+164        <service
+164-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:70:9-76:19
+165            android:name="com.onesignal.HmsMessageServiceOneSignal"
+165-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:71:13-68
+166            android:exported="false" >
+166-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:72:13-37
+167            <intent-filter>
+167-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:73:13-75:29
+168                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+168-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:74:17-81
+168-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:74:25-78
+169            </intent-filter>
+170        </service>
+171
+172        <activity
+172-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:78:9-84:20
+173            android:name="com.onesignal.NotificationOpenedActivityHMS"
+173-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:79:13-71
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+174-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:80:13-72
+175            <intent-filter>
+175-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:81:13-83:29
+176                <action android:name="android.intent.action.VIEW" />
+176-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:82:17-69
+176-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:82:25-66
+177            </intent-filter>
+178        </activity>
+179
+180        <service android:name="com.onesignal.GcmIntentService" />
+180-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:86:9-66
+180-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:86:18-63
+181        <service
+181-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:87:9-89:72
+182            android:name="com.onesignal.GcmIntentJobService"
+182-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:88:13-61
+183            android:permission="android.permission.BIND_JOB_SERVICE" />
+183-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:89:13-69
+184        <service
+184-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:90:9-92:72
+185            android:name="com.onesignal.RestoreJobService"
+185-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:91:13-59
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:92:13-69
+187        <service
+187-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:93:9-95:72
+188            android:name="com.onesignal.RestoreKickoffJobService"
+188-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:94:13-66
+189            android:permission="android.permission.BIND_JOB_SERVICE" />
+189-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:95:13-69
+190        <service
+190-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:96:9-98:43
+191            android:name="com.onesignal.SyncService"
+191-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:97:13-53
+192            android:stopWithTask="true" />
+192-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:98:13-40
+193        <service
+193-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:99:9-101:72
+194            android:name="com.onesignal.SyncJobService"
+194-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:100:13-56
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:101:13-69
+196
+197        <activity
+197-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:103:9-105:75
+198            android:name="com.onesignal.PermissionsActivity"
+198-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:104:13-61
+199            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+199-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:105:13-72
+200
+201        <service android:name="com.onesignal.NotificationRestoreService" />
+201-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:107:9-76
+201-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:107:18-73
+202
+203        <receiver android:name="com.onesignal.BootUpReceiver" >
+203-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:109:9-114:20
+203-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:109:19-62
+204            <intent-filter>
+204-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:110:13-113:29
+205                <action android:name="android.intent.action.BOOT_COMPLETED" />
+205-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:111:17-79
+205-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:111:25-76
+206                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+206-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:112:17-82
+206-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:112:25-79
+207            </intent-filter>
+208        </receiver>
+209        <receiver android:name="com.onesignal.UpgradeReceiver" >
+209-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:115:9-119:20
+209-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:115:19-63
+210            <intent-filter>
+210-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:116:13-118:29
+211                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+211-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:117:17-84
+211-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:117:25-81
+212            </intent-filter>
+213        </receiver>
+214        <!--
+215             FirebaseMessagingService performs security checks at runtime,
+216             but set to not exported to explicitly avoid allowing another app to call it.
+217        -->
+218        <service
+218-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\624a6901e580023d74645404b3c94db5\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+219            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+219-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\624a6901e580023d74645404b3c94db5\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+220            android:exported="false" >
+220-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\624a6901e580023d74645404b3c94db5\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+221            <intent-filter android:priority="-500" >
+221-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\624a6901e580023d74645404b3c94db5\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:13-33:29
+221-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\624a6901e580023d74645404b3c94db5\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:31:28-51
+222                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+222-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\624a6901e580023d74645404b3c94db5\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:32:17-78
+222-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\624a6901e580023d74645404b3c94db5\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:32:25-75
+223            </intent-filter>
+224        </service>
+225
+226        <receiver
+226-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+227            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+227-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+228            android:exported="true"
+228-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+229            android:permission="com.google.android.c2dm.permission.SEND" >
+229-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+230            <intent-filter>
+230-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+231                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+231-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:63:17-81
+231-->[com.onesignal:OneSignal:3.15.7] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c9e554ac345b9361e95684e3101b1e24\jetified-OneSignal-3.15.7\AndroidManifest.xml:63:25-78
+232            </intent-filter>
+233        </receiver>
+234
+235        <activity
+235-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+236            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+236-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+238-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+239        <activity
+239-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:29:9-33:64
+240            android:name="com.google.android.gms.ads.AdActivity"
+240-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:30:13-65
+241            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+241-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:31:13-122
+242            android:exported="false"
+242-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:32:13-37
+243            android:theme="@android:style/Theme.Translucent" />
+243-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:33:13-61
+244
+245        <provider
+245-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:35:9-39:39
+246            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+246-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:36:13-76
+247            android:authorities="com.buyingmark.mobileadsinitprovider"
+247-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:37:13-73
+248            android:exported="false"
+248-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:38:13-37
+249            android:initOrder="100" />
+249-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\7c3787d3ff10d1637991d3ea32ec217c\play-services-ads-lite-18.1.1\AndroidManifest.xml:39:13-36
+250
+251        <receiver
+251-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+252            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+252-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+253            android:enabled="true"
+253-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+254            android:exported="false" >
+254-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+255        </receiver>
+256        <receiver
+256-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+257            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+257-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+259            android:exported="true"
+259-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+260            android:permission="android.permission.INSTALL_PACKAGES" >
+260-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+261            <intent-filter>
+261-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+262                <action android:name="com.android.vending.INSTALL_REFERRER" />
+262-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+262-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+263            </intent-filter>
+264        </receiver>
+265
+266        <service
+266-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+267            android:name="com.google.android.gms.measurement.AppMeasurementService"
+267-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+269            android:exported="false" />
+269-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+270        <service
+270-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+271            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+271-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+272            android:enabled="true"
+272-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+273            android:exported="false"
+273-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+274            android:permission="android.permission.BIND_JOB_SERVICE" />
+274-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+275
+276        <provider
+276-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\3f027a1b4fa4374cfaf204b3ae77302d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+277            android:name="com.google.firebase.provider.FirebaseInitProvider"
+277-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\3f027a1b4fa4374cfaf204b3ae77302d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+278            android:authorities="com.buyingmark.firebaseinitprovider"
+278-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\3f027a1b4fa4374cfaf204b3ae77302d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+279            android:exported="false"
+279-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\3f027a1b4fa4374cfaf204b3ae77302d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+280            android:initOrder="100" />
+280-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\3f027a1b4fa4374cfaf204b3ae77302d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+281
+282        <meta-data
+282-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\bc331ca19428ab04fd9db0214b42538e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+283            android:name="com.google.android.gms.version"
+283-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\bc331ca19428ab04fd9db0214b42538e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+284            android:value="@integer/google_play_services_version" />
+284-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\PUBUDU\.gradle\caches\transforms-2\files-2.1\bc331ca19428ab04fd9db0214b42538e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+285    </application>
+286
+287</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "824322357385",
+    "project_id": "buyingmark-2bdd7",
+    "storage_bucket": "buyingmark-2bdd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824322357385:android:4be3723360a721eceaee58",
+        "android_client_info": {
+          "package_name": "com.buyingmark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824322357385-jk348441t0kbe1v8gt6gfhoir1k05c9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaG6D6bfCWiZm111FnJJihLIjaRgvyvXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824322357385-jk348441t0kbe1v8gt6gfhoir1k05c9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
